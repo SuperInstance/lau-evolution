@@ -1,0 +1,12 @@
+[package]
+name = "lau-evolution"
+version = "0.1.0"
+edition = "2021"
+description = "World evolution engine — worlds that grow, adapt, and evolve based on how kids play them."
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0.150"
